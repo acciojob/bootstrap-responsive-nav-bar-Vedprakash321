@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+nav{
+	background-color:#E3F3FD;
+}
+
+  @media (max-width: 767px) {
+            /* Style adjustments for mobile view */
+            .navbar-expand-lg .navbar-nav .dropdown-menu {
+                position: static;
+				
+                transform: none;
+            }
+            .move-down {
+				display:flex;
+                flex-direction: column; /* Stack items vertically */
+            }
+        }
